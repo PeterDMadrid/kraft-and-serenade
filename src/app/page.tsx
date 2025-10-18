@@ -4,8 +4,7 @@ export default function Home() {
   return (
     <div className="font-sans">
       <Carousel />
-      <Carousel />
-      <Carousel />
+      <div className="h-screen"></div>
     </div>
   );
 }
