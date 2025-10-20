@@ -41,9 +41,14 @@ export default function Carousel() {
                 <p className={`${poppins.className} font-bold tracking-wider leading-tighter text-5xl sm:text-6xl md:text-7xl lg:text-8xl pointer-events-none`}>
                     WE MAKE <br></br> IT MORE <br></br> THAN JUST <br></br> SPECIAL
                 </p>
-                <div className={`${poppins.className} flex gap-2 mt-4 p-4 lg:text-xl lg:p-6 tracking-widest border cursor-pointer`}>
-                    <p>MESSAGE US</p>
-                </div>
+                <a
+                    href="https://m.me/kraftandserenade"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${poppins.className} flex gap-2 mt-4 p-4 lg:text-xl lg:p-6 tracking-widest border cursor-pointer`}
+                >
+                    MESSAGE US
+                </a>
             </div>
         </div>
     )
