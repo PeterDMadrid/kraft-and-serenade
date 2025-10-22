@@ -34,3 +34,17 @@ body {
 .slideInUp {
   animation: slideInUp 1s ease-out both;
 }
+
+@keyframes animateAmbient {
+  0% {
+    transform: rotate(0deg) translate(1em) rotate(0deg) scale(1.2);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(1em) rotate(-360deg) scale(1.2);
+  }
+}
+
+.ambient {
+  animation: animateAmbient 30s linear infinite;
+}
