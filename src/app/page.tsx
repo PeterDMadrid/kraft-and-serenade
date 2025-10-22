@@ -1,5 +1,5 @@
-import Carousel from "./carousel/page";
-import Offer from "./offer/page";
+import Carousel from "./home/carousel/page";
+import Offer from "./home/offer/page";
 
 export default function Home() {
   return (
