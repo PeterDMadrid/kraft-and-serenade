@@ -1,5 +1,6 @@
 import BestSeller from "./home/best-seller/page";
 import Carousel from "./home/carousel/page";
+import FeaturedBouquet from "./home/featured-bouquet/page";
 import Offer from "./home/offer/page";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Carousel />
       <Offer />
       <BestSeller />
+      <FeaturedBouquet />
       <div className="h-screen"></div>
     </div>
   );
