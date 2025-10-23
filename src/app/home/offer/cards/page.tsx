@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import Card from "./Card";
 
 export default function Cards() {
@@ -10,18 +8,21 @@ export default function Cards() {
                 title="SIGNATURE BOUQUETS"
                 description="Experience the artistry of our uniquely designed, timeless flower arrangements"
                 href="/signature-bouquet"
+                animationDelay={0}
             />
             <Card
                 image="/landing-page/signature-banner.avif"
                 title="CUSTOMER CREATIONS"
                 description="View our customer's creation and also personalize your own beautiful bouquet"
                 href="/signature-bouquet"
+                animationDelay={100}
             />
             <Card
                 image="/landing-page/signature-banner.avif"
                 title="BEYOND BOUQUET"
                 description="Explore our handcrafted gifts, thoughtfully paired with your floral selections"
                 href="/signature-bouquet"
+                animationDelay={200}
             />
         </div>
     );

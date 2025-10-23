@@ -9,14 +9,21 @@ interface CardProps {
     title: string;
     description: string;
     href: string;
+    animationDelay?: number; // in milliseconds
 }
 
-export default function Card({ image, title, description, href }: CardProps) {
+export default function Card({ image, title, description, href, animationDelay = 0 }: CardProps) {
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
 
     return (
         <div ref={ref}>
-            <Link href={href} className={`${isVisible ? 'slideInUp' : 'opacity-0 translate-y-[30px]'} group block`}>
+            <Link
+                href={href}
+                className={`${isVisible ? 'slideInUp' : 'opacity-0 translate-y-[30px]'} group block`}
+                style={{
+                    animationDelay: isVisible ? `${animationDelay}ms` : '0ms'
+                }}
+            >
                 <div className="flex flex-col text-white bg-neutral-900 rounded-tr-4xl rounded-bl-4xl p-4 w-[300px] sm:justify-self-end cursor-pointer transition-transform duration-300 ease-out group-hover:-translate-y-2">
                     <div className="relative bg-white w-full h-[300px] rounded-tr-2xl rounded-bl-2xl overflow-hidden">
                         <Image
