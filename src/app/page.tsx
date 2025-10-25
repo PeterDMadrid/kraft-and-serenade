@@ -1,8 +1,8 @@
 import Banner from "@/components/Banner";
-import BestSeller from "./home/best-seller/page";
-import Carousel from "./home/carousel/page";
 import FeaturedBouquet from "./home/featured-bouquet/page";
 import Offer from "./home/offer/page";
+import BestSeller from "./home/BestSeller";
+import Carousel from "./home/Carousel";
 
 export default function Home() {
   return (
