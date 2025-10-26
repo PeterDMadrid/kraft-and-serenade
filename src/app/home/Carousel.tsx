@@ -1,10 +1,4 @@
 import Image from 'next/image';
-import { Poppins } from 'next/font/google';
-
-const poppins = Poppins({
-    weight: ['400', '700'],
-    subsets: ['latin'],
-});
 
 export default function Carousel() {
     return (
@@ -38,7 +32,7 @@ export default function Carousel() {
             <div className="absolute inset-0 bg-black/50" />
             {/* Centered text */}
             <div className="flex flex-col absolute p-8 md:p-12 lg:p-16 xl:p-32 text-white inset-0 flex justify-center items-start">
-                <p className={`${poppins.className} font-bold tracking-wider leading-tighter text-5xl sm:text-6xl md:text-7xl lg:text-8xl pointer-events-none slideInUp`}
+                <p className={`font-bold tracking-wider leading-tighter text-5xl sm:text-6xl md:text-7xl lg:text-8xl pointer-events-none slideInUp`}
                 >
                     WE MAKE <br></br> IT MORE <br></br> THAN JUST <br></br> SPECIAL
                 </p>
@@ -47,7 +41,7 @@ export default function Carousel() {
                         href="https://m.me/kraftandserenade"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`${poppins.className} flex gap-2 mt-4 p-4 lg:text-xl lg:p-6 tracking-widest border cursor-pointer slideInUp`}
+                        className={`flex gap-2 mt-4 p-4 lg:text-xl lg:p-6 tracking-widest border cursor-pointer slideInUp`}
                     >
                         MESSAGE US
                     </a>

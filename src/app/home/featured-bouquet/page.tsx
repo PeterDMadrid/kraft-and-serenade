@@ -1,5 +1,4 @@
 import { Poppins } from "next/font/google"
-import Image from "next/image";
 import FeatCard from "./Card/Feat-card";
 
 const poppins = Poppins({
@@ -9,7 +8,7 @@ const poppins = Poppins({
 
 export default function FeaturedBouquet() {
     return (
-        <div className={`${poppins.className} mt-12`}>
+        <div className={`mt-12`}>
             {/* Container for heading */}
             <div className="mx-auto max-w-6xl px-4">
                 <p className="text-4xl text-neutral-800">Featured Bouquet</p>

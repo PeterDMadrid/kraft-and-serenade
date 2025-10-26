@@ -6,7 +6,7 @@ import Carousel from "./home/Carousel";
 
 export default function Home() {
   return (
-    <div className="font-sans">
+    <div>
       <Carousel />
       <Offer />
       <BestSeller />

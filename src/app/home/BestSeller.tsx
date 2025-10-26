@@ -1,19 +1,13 @@
 'use client';
 
-import { Poppins } from "next/font/google";
 import Image from "next/image";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-
-const poppins = Poppins({
-    weight: ['400', '700'],
-    subsets: ['latin'],
-});
 
 export default function BestSeller() {
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
 
     return (
-        <div className={`${poppins.className} mt-12 p-8 text-white text-xs sm:text-sm w-full bg-neutral-900`}>
+        <div className={`mt-12 p-8 text-white text-xs sm:text-sm w-full bg-neutral-900`}>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-6xl mx-auto">
                 <div className="relative min-h-110 overflow-hidden">
                     <Image

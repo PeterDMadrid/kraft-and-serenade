@@ -1,10 +1,4 @@
-import Image from "next/image"
-import { Poppins } from "next/font/google"
-
-const poppins = Poppins({
-    weight: ['400', '700'],
-    subsets: ['latin'],
-});
+import Image from "next/image";
 
 interface BannerProps {
     image: string;
@@ -14,7 +8,7 @@ interface BannerProps {
 
 export default function Bannner({ image, heading, text}: BannerProps) {
     return (
-        <div className={`${poppins.className} relative mt-12 w-full h-140 bg-black overflow-hidden`}>
+        <div className={`relative mt-12 w-full h-140 bg-black overflow-hidden`}>
             <Image
                 src={image}
                 alt={heading}
