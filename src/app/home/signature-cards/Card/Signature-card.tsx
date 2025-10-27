@@ -14,7 +14,7 @@ interface FeatCardProps {
     animationDelay?: number;
 }
 
-export default function FeatCard({ image, hoverImage, title, price, href, animationDelay = 0 }: FeatCardProps) {
+export default function SignatureCard({ image, hoverImage, title, price, href, animationDelay = 0 }: FeatCardProps) {
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
     const [isHovered, setIsHovered] = useState(false);
 

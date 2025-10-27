@@ -1,16 +1,10 @@
-import { Poppins } from "next/font/google"
 import FeatCard from "./Card/Feat-card";
-
-const poppins = Poppins({
-    weight: ['400', '700'],
-    subsets: ['latin'],
-});
 
 export default function FeaturedBouquet() {
     return (
-        <div className={`mt-12`}>
+        <div className="mt-12">
             {/* Container for heading */}
-            <div className="mx-auto max-w-6xl px-4">
+            <div className="mx-auto max-w-6xl px-4 border">
                 <p className="text-4xl text-neutral-800">Featured Bouquet</p>
                 <p className="text-neutral-600 mt-2">
                     Designed with simplicity and grace in mind.<br />
