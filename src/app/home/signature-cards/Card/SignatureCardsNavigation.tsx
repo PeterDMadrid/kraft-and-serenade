@@ -51,7 +51,7 @@ export default function SignatureCardsNavigation({ cards }: SignatureCardsNaviga
                                 title={card.title}
                                 price={card.price}
                                 href={card.href}
-                                animationDelay={0}
+                                animationDelay={index * 50}
                             />
                         </div>
                     ))}

@@ -30,7 +30,7 @@ export default function SignatureCard({ image, hoverImage, title, price, href, a
                 onMouseLeave={() => setIsHovered(false)}
             >
                 <div className="flex-shrink-0 w-66">
-                    <div className="relative rounded-[46%_46%_0%_0%_/_60%_60%_10%_10%] w-full h-80 overflow-hidden">
+                    <div className="relative w-full h-80 overflow-hidden">
                         <Image
                             src={image}
                             alt={title}
