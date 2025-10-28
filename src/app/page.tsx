@@ -1,10 +1,10 @@
 import Banner from "@/components/Banner";
-import FeaturedBouquet from "./home/featured-bouquet/page";
-import Offer from "./home/offer/page";
+import FeaturedBouquet from "./home/featured-bouquet/FeaturedBouquet";
+import Offer from "./home/offer/Offer";
 import BestSeller from "./home/BestSeller";
 import Carousel from "./home/Carousel";
-import SignatureCards from "./home/signature-cards/page";
-import FlowerBox from "./home/flower-box/page";
+import SignatureCards from "./home/signature-cards/SignatureCards";
+import FlowerBox from "./home/flower-box/FlowerBox";
 
 export default function Home() {
   return (
