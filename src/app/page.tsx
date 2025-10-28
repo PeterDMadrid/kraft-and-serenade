@@ -4,6 +4,7 @@ import Offer from "./home/offer/page";
 import BestSeller from "./home/BestSeller";
 import Carousel from "./home/Carousel";
 import SignatureCards from "./home/signature-cards/page";
+import FlowerBox from "./home/flower-box/page";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
                     flowers, expertly preserved to maintain their velvety softness and
                     vivid beauty. More than a bouquet, it’s an enduring expression of
                     elegance, designed to last for years."/>
+      <FlowerBox />
       <div className="h-screen"></div>
     </div>
   );
