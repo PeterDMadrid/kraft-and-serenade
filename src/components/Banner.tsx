@@ -8,7 +8,7 @@ interface BannerProps {
 
 export default function Bannner({ image, heading, text}: BannerProps) {
     return (
-        <div className={`relative mt-12 w-full h-140 bg-black overflow-hidden`}>
+        <div className={`relative mt-12 w-full h-130 bg-black overflow-hidden`}>
             <Image
                 src={image}
                 alt={heading}
