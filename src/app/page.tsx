@@ -4,7 +4,7 @@ import Offer from "./home/offer/Offer";
 import BestSeller from "./home/BestSeller";
 import Carousel from "./home/Carousel";
 import SignatureCards from "./home/signature-cards/SignatureCards";
-import FlowerBox from "./home/flower-box/FlowerBox";
+import Addons from "./home/add-ons/Addons";
 
 export default function Home() {
   return (
@@ -42,7 +42,7 @@ export default function Home() {
                     flowers, expertly preserved to maintain their velvety softness and
                     vivid beauty. More than a bouquet, it’s an enduring expression of
                     elegance, designed to last for years."/>
-      <FlowerBox />
+      <Addons />
       <div className="h-screen"></div>
     </div>
   );

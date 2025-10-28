@@ -14,7 +14,7 @@ interface boxCard {
     animationDelay?: number;
 }
 
-export default function flowerBoxCard({ image, hoverImage, title, price, href, animationDelay = 0 }: boxCard) {
+export default function AddonCard({ image, hoverImage, title, price, href, animationDelay = 0 }: boxCard) {
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
     const [isHovered, setIsHovered] = useState(false);
 

@@ -1,4 +1,4 @@
-export const flowerBoxes = [
+export const addonsData = [
     {
         image: "/featured-bouquet/angels.avif",
         hoverImage: "/featured-bouquet/angels-hovered.avif",
