@@ -2,8 +2,16 @@
 
 import Image from "next/image";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import Link from "next/link";
 
-export default function BestSeller() {
+interface props {
+    image: string;
+    title: string;
+    description: string;
+    href: string;
+}
+
+export default function BestSeller({ image, title, description, href}: props) {
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
 
     return (
@@ -11,7 +19,7 @@ export default function BestSeller() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-6xl mx-auto">
                 <div className="relative min-h-110 overflow-hidden">
                     <Image
-                        src="/landing-page/best-seller.avif"
+                        src={image}
                         fill
                         alt="Best seller"
                         className="object-cover ambient"
@@ -22,20 +30,21 @@ export default function BestSeller() {
                         className={`text-4xl font-bold ${isVisible ? 'slideInUp' : 'opacity-0 translate-y-[30px]'}`}
                         style={{ animationDelay: isVisible ? '0ms' : '0ms' }}
                     >
-                        This Month's Best Seller
+                        {title}
                     </h2>
                     <p
                         className={`text-lg text-neutral-300 leading-relaxed ${isVisible ? 'slideInUp' : 'opacity-0 translate-y-[30px]'}`}
                         style={{ animationDelay: isVisible ? '150ms' : '0ms' }}
                     >
-                        Our Angel's Bouquet has been stealing hearts all month! Loved for its soft tones and timeless charm — no wonder it's everyone's favorite pick.
+                        {description}
                     </p>
-                    <a
+                    <Link
+                        href={href}
                         className={`border border-white hover:bg-white hover:text-black transition-colors cursor-pointer py-6 px-12 text-[1.1rem] w-fit ${isVisible ? 'slideInUp' : 'opacity-0 translate-y-[30px]'}`}
                         style={{ animationDelay: isVisible ? '300ms' : '0ms' }}
                     >
                         Learn More
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
