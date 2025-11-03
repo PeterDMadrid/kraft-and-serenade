@@ -8,6 +8,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Custom flower bouquet from Kraft and Serenade",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/veloras/veloras-1.avif",
@@ -18,6 +19,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Elegant rose and lily bouquet arrangement",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/veras/veras-1.avif",
@@ -28,6 +30,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Luxury handcrafted bouquet by Kraft and Serenade",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/lilys/lilys-1.avif",
@@ -38,6 +41,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Mixed flower bouquet with pink and white blooms",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/saffiras/saffiras-1.avif",
@@ -48,6 +52,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Affordable small bouquet with elegant wrapping",
     size: "Standard",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/skys/skys-1.avif",
@@ -58,6 +63,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Blue-themed bouquet with soft pastel flowers",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/marias/marias-1.avif",
@@ -68,6 +74,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Personalized bouquet with fresh roses and fillers",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/seans/seans-1.avif",
@@ -78,6 +85,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Romantic bouquet gift arrangement",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/nicoles/nicoles-1.avif",
@@ -88,6 +96,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Budget-friendly mini bouquet from Kraft and Serenade",
     size: "Standard",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/hussins/hussins-1.avif",
@@ -98,6 +107,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Classic red rose bouquet",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/aubreys/aubreys-1.avif",
@@ -108,6 +118,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Elegant lavender and white bouquet design",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/kaths/kaths.avif",
@@ -118,6 +129,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Large custom bouquet with ribbon wrapping",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/chas/chas-1.avif",
@@ -128,6 +140,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Pink-themed bouquet for birthdays or gifts",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/clarises/clarise-1.avif",
@@ -138,6 +151,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Handcrafted bouquet with purple flowers",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/jaydes/jaydes-2.avif",
@@ -148,16 +162,18 @@ export const customerCreationsData = [
     href: "/",
     alt: "Flower bouquet with mixed roses and greens",
     size: "Big",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/migis/migis-1.avif",
     hoverImage: "/all-products/customer-creations/migis/migis-1.avif",
     title: "Migi's",
     price: "₱850",
-    prevPrice: "₱",
+    prevPrice: "₱950",
     href: "/",
     alt: "Small pastel bouquet arrangement",
     size: "Standard",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/tiens/tiens-1.avif",
@@ -168,6 +184,7 @@ export const customerCreationsData = [
     href: "/",
     alt: "Minimalistic white bouquet design",
     size: "Standard",
+    category: "Customer Creation",
   },
   {
     image: "/all-products/customer-creations/aprils/aprils-1.avif",
@@ -178,5 +195,6 @@ export const customerCreationsData = [
     href: "/",
     alt: "Spring-inspired flower bouquet",
     size: "Standard",
+    category: "Customer Creation",
   },
 ];

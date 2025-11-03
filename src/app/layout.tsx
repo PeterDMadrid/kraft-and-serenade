@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Kraft and Serenade | Handcrafted Fower Bouquets",
+  title: "Kraft and Serenade | Handcrafted Flower Bouquets",
   description: "Browse handcrafted flower bouquets from real customers. Elegant custom arrangements by Kraft and Serenade.",
 };
 

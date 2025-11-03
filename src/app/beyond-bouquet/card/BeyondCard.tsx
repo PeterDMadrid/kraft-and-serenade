@@ -14,11 +14,10 @@ interface ProductProps {
     href: string;
     alt: string;
     size: string;
-    category: string;
     animationDelay?: number;
 }
 
-export default function AllProductCard({ 
+export default function BeyondCard({ 
     image, 
     hoverImage, 
     title, 
@@ -27,7 +26,6 @@ export default function AllProductCard({
     href, 
     alt, 
     size, 
-    category,
     animationDelay = 0 
 }: ProductProps) {
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
@@ -71,11 +69,6 @@ export default function AllProductCard({
 
                     {/* Product Info */}
                     <div className="space-y-1">
-                        {/* Category */}
-                        <p className="text-xs font-medium text-neutral-500 uppercase tracking-wide">
-                            {category}
-                        </p>
-
                         {/* Title & Size */}
                         <h3 className="text-sm font-medium text-neutral-900 leading-tight">
                             {title} <span className="text-neutral-400 font-normal">|</span> {size}

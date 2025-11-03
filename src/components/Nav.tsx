@@ -24,7 +24,7 @@ export default function Nav() {
       submenu: [
         { label: 'All Products', href: '/all-products' },
         { label: 'Signature Bouquets', href: '/signature-bouquet' },
-        { label: 'Customer Creations', href: '/creations' },
+        { label: 'Customer Creations', href: '/customer-creations' },
         { label: 'Beyond Bouquets', href: '/beyond-bouquet' },
       ],
     },
