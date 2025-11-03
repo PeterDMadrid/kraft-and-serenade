@@ -1,3 +1,4 @@
+import Heading from "@/components/Heading";
 import SignatureCard from "./Card/Signature-card";
 import SignatureCardsNavigation from "./Card/SignatureCardsNavigation";
 import { gerberaBouquets } from "./data/gerbera-bouquets";
@@ -30,18 +31,8 @@ export default function SignatureCards({ title, signatureCode, description, show
 
     return (
         <div className="mt-12">
-            <div className="mx-auto max-w-6xl px-4">
-                <div className="px-4 pb-4">
-                    <p className="text-4xl text-neutral-800">{title}</p>
-                    <p className="text-neutral-600 mt-2">
-                        {description.split("\n").map((line, i) => (
-                            <span key={i}>
-                                {line}
-                                <br />
-                            </span>
-                        ))}
-                    </p>
-                </div>
+            <div className="mx-auto max-w-6xl px-8">
+                <Heading title={title} description={description}/>
 
                 {/* Mobile: Scroll behavior (below sm) */}
                 <div className="mt-8 sm:hidden -mx-4 overflow-x-auto scroll-smooth [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">

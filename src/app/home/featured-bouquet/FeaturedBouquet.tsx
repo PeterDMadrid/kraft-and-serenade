@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FeatCard from "./Card/Feat-card";
 import { featuredBouquets } from "./data/featured-bouquets";
 
@@ -16,7 +17,7 @@ export default function FeaturedBouquet() {
                 <div className="mt-8 -mx-4 overflow-x-auto scroll-smooth [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
                     <div className="flex justify-between w-full space-x-4 px-4">
                         {featuredBouquets.map((card, index) => (
-                            <FeatCard 
+                            <FeatCard
                                 key={index}
                                 {...card}
                                 animationDelay={index * 50}
@@ -25,9 +26,12 @@ export default function FeaturedBouquet() {
                     </div>
                 </div>
                 <div className="text-center mt-8">
-                    <button className="border py-4 px-8 hover:bg-black hover:text-white cursor-pointer transition-colors">
+                    <Link
+                        href="/all-products"
+                        className="inline-block border py-4 px-8 hover:bg-black hover:text-white cursor-pointer transition-colors"
+                    >
                         View All
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
