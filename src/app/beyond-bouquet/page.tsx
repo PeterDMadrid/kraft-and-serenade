@@ -1,22 +1,22 @@
 import Heading from "@/components/Heading";
+import { beyondBouquetData } from "@/data/beyond-bouquet-data";
+import BeyondCard from "./card/BeyondCard";
 
-import SignatureBouquetCard from "./card/SignatureBouquetCard";
-import { signatureBouquetData } from "@/data/signature-bouquet-data";
 
-export default function SignatureBouquet() {
+export default function BeyondBouquet() {
 
     return (
         <div className="mt-28">
             <div className="mx-auto max-w-6xl px-4">
                 <Heading
-                    title="Signature Bouquet"
+                    title="Beyond Bouquet"
                     description={`Designed with simplicity and grace in mind. 
                       A perfect blend of color, texture, and timeless beauty.`}
                 />
                 <div className="mt-8">
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
-                        {signatureBouquetData.map((card, index) => (
-                            <SignatureBouquetCard
+                        {beyondBouquetData.map((card, index) => (
+                            <BeyondCard
                                 key={index}
                                 image={card.image}
                                 hoverImage={card.hoverImage}

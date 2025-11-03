@@ -1,8 +1,16 @@
 import Heading from "@/components/Heading";
 import AllProductCard from "./card/AllProductCard";
 import { customerCreationsData } from "@/data/customer-creation-data";
+import { signatureBouquetData } from "@/data/signature-bouquet-data";
+import { beyondBouquetData } from "@/data/beyond-bouquet-data";
 
 export default function AllProducts() {
+
+    const allProducts = [
+        ...signatureBouquetData,
+        ...customerCreationsData,
+        ...beyondBouquetData
+    ]
 
     return (
         <div className="mt-28">
@@ -14,7 +22,7 @@ export default function AllProducts() {
                 />
                 <div className="mt-8">
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
-                        {customerCreationsData.map((card, index) => (
+                        {allProducts.map((card, index) => (
                             <AllProductCard
                                 key={index}
                                 image={card.image}
@@ -25,6 +33,7 @@ export default function AllProducts() {
                                 href={card.href}
                                 alt={card.alt}
                                 size={card.size}
+                                category={card.category}
                                 animationDelay={(index % 4) * 50}
                             />
                         ))}
@@ -53,7 +62,6 @@ export default function AllProducts() {
                     </div>
                 </div>
             </div>
-            <div className="h-screen"></div>
         </div>
     )
 }
