@@ -5,9 +5,9 @@ interface HeadingProps {
 
 export default function Heading({ title, description }: HeadingProps) {
     return (
-        <div className="px-4 pb-4">
-            <p className="text-4xl text-neutral-800">{title}</p>
-            <p className="text-neutral-600 mt-2">
+        <div className="px-4 pb-4 flex flex-col items-center">
+            <p className="text-4xl text-neutral-800 text-center uppercase">{title}</p>
+            <p className="text-neutral-400 mt-2 text-center text-xs">
                 {description.split("\n").map((line, i) => (
                     <span key={i}>
                         {line}

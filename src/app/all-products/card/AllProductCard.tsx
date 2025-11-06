@@ -86,7 +86,7 @@ export default function AllProductCard({
                             <span className="text-sm text-neutral-400 line-through" aria-label="Original price">
                                 {prevPrice}
                             </span>
-                            <span className="text-sm font-semibold text-red-600" aria-label="Sale price">
+                            <span className="text-sm font-semibold" aria-label="Sale price">
                                 {price}
                             </span>
                         </div>

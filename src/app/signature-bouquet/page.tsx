@@ -2,6 +2,7 @@ import Heading from "@/components/Heading";
 
 import SignatureBouquetCard from "./card/SignatureBouquetCard";
 import { signatureBouquetData } from "@/data/signature-bouquet-data";
+import ProductsList from "@/components/ProductList";
 
 export default function SignatureBouquet() {
 
@@ -13,24 +14,7 @@ export default function SignatureBouquet() {
                     description={`Designed with simplicity and grace in mind. 
                       A perfect blend of color, texture, and timeless beauty.`}
                 />
-                <div className="mt-8">
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
-                        {signatureBouquetData.map((card, index) => (
-                            <SignatureBouquetCard
-                                key={index}
-                                image={card.image}
-                                hoverImage={card.hoverImage}
-                                title={card.title}
-                                price={card.price}
-                                prevPrice={card.prevPrice}
-                                href={card.href}
-                                alt={card.alt}
-                                size={card.size}
-                                animationDelay={(index % 4) * 50}
-                            />
-                        ))}
-                    </div>
-                </div>
+                <ProductsList products={signatureBouquetData} />
             </div>
         </div>
     )
