@@ -32,7 +32,7 @@ export default function Carousel() {
             <div className="absolute inset-0 bg-black/50" />
             {/* Centered text */}
             <div className="flex flex-col absolute p-8 md:p-12 lg:p-16 xl:p-32 text-white inset-0 flex justify-center items-start">
-                <p className={`font-bold tracking-wider leading-tighter text-5xl sm:text-6xl md:text-7xl lg:text-8xl pointer-events-none slideInUp`}
+                <p className={`font-bold tracking-wider leading-tighter text-5xl sm:text-6xl md:text-7xl xl:text-8xl pointer-events-none slideInUp`}
                 >
                     WE MAKE <br></br> IT MORE <br></br> THAN JUST <br></br> SPECIAL
                 </p>

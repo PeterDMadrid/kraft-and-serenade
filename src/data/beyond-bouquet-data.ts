@@ -6,7 +6,7 @@ export const beyondBouquetData = [
         price: "₱299",
         prevPrice: "₱350",
         href: "/",
-        alt: "Custom flower bouquet from Kraft and Serenade",
+        alt: "Custom Rapunzel's Sundrop with image in a box. Flower inside a box",
         size: "Mini",
         category: "Beyond Bouquet"
     },
