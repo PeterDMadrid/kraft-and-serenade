@@ -24,7 +24,6 @@ export default function AllProductCard({
     title, 
     price, 
     prevPrice, 
-    href, 
     alt, 
     size, 
     category,
@@ -32,11 +31,15 @@ export default function AllProductCard({
 }: ProductProps) {
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
     const [isHovered, setIsHovered] = useState(false);
+    
+    // Generate slug from title
+    const slug = title.toLowerCase().replace(/\s+/g, "-");
+    const productUrl = `/all-products/${slug}`;
 
     return (
         <div ref={ref}>
             <Link
-                href={href}
+                href={productUrl}
                 className={`group block transition-all ${
                     isVisible ? 'slideInUp' : 'opacity-0 translate-y-[30px]'
                 }`}

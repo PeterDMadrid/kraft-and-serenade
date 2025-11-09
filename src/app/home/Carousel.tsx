@@ -38,7 +38,7 @@ export default function Carousel() {
                 </p>
                 <div>
                     <a
-                        href="https://m.me/kraftandserenade"
+                        href="https://m.me/kraftandserenade?text=Hi%20I’d%20like%20to%20inquire%20about%20your%20bouquets!"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex gap-2 mt-4 p-4 lg:text-xl lg:p-6 tracking-widest border cursor-pointer slideInUp`}
