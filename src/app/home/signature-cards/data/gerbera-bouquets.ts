@@ -1,15 +1,8 @@
 export const gerberaBouquets = [
     {
-        image: "/featured-bouquet/angels.avif",
-        hoverImage: "/featured-bouquet/angels-hovered.avif",
-        title: "Gerbera 1",
-        price: "₱399",
-        href: "/",
-    },
-    {
-        image: "/featured-bouquet/hussins.avif",
-        hoverImage: "/featured-bouquet/hussins-hovered.avif",
-        title: "Gerbera 2",
+        image: "/all-products/signature-bouquets/Haruna/haruna-1.avif",
+        hoverImage: "/all-products/signature-bouquets/Haruna/haruna-2.avif",
+        title: "Haruna",
         price: "₱399",
         href: "/",
     },

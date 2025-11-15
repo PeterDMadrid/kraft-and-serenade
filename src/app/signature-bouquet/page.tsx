@@ -1,6 +1,4 @@
 import Heading from "@/components/Heading";
-
-import SignatureBouquetCard from "./card/SignatureBouquetCard";
 import { signatureBouquetData } from "@/data/signature-bouquet-data";
 import ProductsList from "@/components/ProductList";
 
