@@ -1,6 +1,5 @@
 import Heading from "@/components/Heading";
 import { beyondBouquetData } from "@/data/beyond-bouquet-data";
-import BeyondCard from "./card/BeyondCard";
 import ProductsList from "@/components/ProductList";
 
 

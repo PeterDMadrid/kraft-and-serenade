@@ -1,7 +1,6 @@
 import Heading from "@/components/Heading";
 
 import { customerCreationsData } from "@/data/customer-creation-data";
-import CustomerCreationsCard from "./card/CustomerCreationsCard";
 import ProductsList from "@/components/ProductList";
 
 export default function CustomerCreation() {
