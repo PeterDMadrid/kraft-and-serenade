@@ -29,7 +29,7 @@ export default function Nav() {
       ],
     },
     { label: 'How to Order', href: '/how-to-order' },
-    { label: 'About Us', href: '/about' },
+    { label: 'About Us', href: '/about-us' },
     {
       label: 'More',
       href: '#',
