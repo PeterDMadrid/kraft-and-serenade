@@ -4,6 +4,6 @@ export const gerberaBouquets = [
         hoverImage: "/all-products/signature-bouquets/Haruna/haruna-2.avif",
         title: "Haruna",
         price: "₱399",
-        href: "/",
+        href: "/all-products/haruna",
     },
 ]
