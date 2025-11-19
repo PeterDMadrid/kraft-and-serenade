@@ -15,7 +15,7 @@ export default function Home() {
         image="/all-products/customer-creations/angels/angels-2.avif"
         title="This Month's Best Seller"
         description="Our Angel's Bouquet has been stealing hearts all month! Loved for its soft tones and timeless charm — no wonder it's everyone's favorite pick."
-        href="#"
+        href="/all-products/angel's"
       />
       <FeaturedBouquet />
       <Banner image="/landing-page/banner.avif"
@@ -47,7 +47,7 @@ export default function Home() {
         image="/all-products/beyond-bouquet/rapunzel-1.avif"
         title="Rapunzel's Sundrop"
         description="Our Angel's Bouquet has been stealing hearts all month! Loved for its soft tones and timeless charm — no wonder it's everyone's favorite pick."
-        href="#"
+         href="/all-products/rapunzel's-sundrop"
       />
       <Addons />
     </div>
