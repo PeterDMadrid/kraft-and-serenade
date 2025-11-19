@@ -4,6 +4,7 @@ import SignatureCardsNavigation from "./Card/SignatureCardsNavigation";
 import { gerberaBouquets } from "./data/gerbera-bouquets";
 import { lilyBouquets } from "./data/lily-bouquets";
 import { signatureBouquets } from "./data/signature-bouquets";
+import Link from "next/link";
 
 interface Props {
     title: string;
@@ -21,18 +22,18 @@ export default function SignatureCards({ title, signatureCode, description, show
             case 2:
                 return lilyBouquets;
             case 3:
-                return gerberaBouquets; 
+                return gerberaBouquets;
             default:
                 return signatureBouquets;
         }
     }
-    
+
     const bouquets = getBouquets();
 
     return (
         <div className="mt-12">
             <div className="mx-auto max-w-6xl px-8">
-                <Heading title={title} description={description}/>
+                <Heading title={title} description={description} />
 
                 {/* Mobile: Scroll behavior (below sm) */}
                 <div className="mt-8 sm:hidden -mx-4 overflow-x-auto scroll-smooth [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
@@ -57,9 +58,11 @@ export default function SignatureCards({ title, signatureCode, description, show
                 </div>
                 {showViewAll && (
                     <div className="text-center mt-8">
-                        <button className="border py-4 px-8 hover:bg-black hover:text-white cursor-pointer transition-colors">
-                            View All
-                        </button>
+                        <Link href="/signature-bouquet" passHref>
+                            <button className="border py-4 px-8 hover:bg-black hover:text-white cursor-pointer transition-colors">
+                                View All
+                            </button>
+                        </Link>
                     </div>
                 )}
             </div>

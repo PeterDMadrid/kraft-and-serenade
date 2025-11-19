@@ -16,9 +16,7 @@ export default function TermsAndCondition() {
                     height={800}  // any natural height
                     className="w-full h-auto object-cover"
                 />
-
             </div>
-
         </section>
     )
 }

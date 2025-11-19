@@ -20,17 +20,17 @@ export default function Footer() {
 
     const navigationLinks = [
         { label: 'Home', href: '/' },
-        { label: 'All products', href: '/all' },
+        { label: 'All products', href: '/all-products' },
         { label: 'Signature Bouquets', href: '/signature-bouquet' },
-        { label: 'Customer Creations', href: '/creations' },
+        { label: 'Customer Creations', href: '/customer-creations' },
         { label: 'Beyond Bouquet', href: '/beyond-bouquet' },
     ];
 
     const infoLinks = [
         { label: 'How to order', href: '/how-to-order' },
-        { label: 'About us', href: '/about' },
+        { label: 'About us', href: '/about-us' },
         { label: 'FAQs', href: '/faqs' },
-        { label: 'Terms & Condition', href: '/terms' },
+        { label: 'Terms & Condition', href: '/terms-and-condition' },
     ];
 
     return (
@@ -55,13 +55,12 @@ export default function Footer() {
                             const isActive = getIsActive(link.href);
                             return (
                                 <li key={link.href}>
-                                    <Link 
+                                    <Link
                                         href={link.href}
-                                        className={`transition-all underline-offset-4 ${
-                                            isActive 
-                                                ? 'underline decoration-2 font-semibold' 
+                                        className={`transition-all underline-offset-4 ${isActive
+                                                ? 'underline decoration-2 font-semibold'
                                                 : 'hover:underline'
-                                        }`}
+                                            }`}
                                     >
                                         {link.label}
                                     </Link>
@@ -78,13 +77,12 @@ export default function Footer() {
                             const isActive = getIsActive(link.href);
                             return (
                                 <li key={link.href}>
-                                    <Link 
+                                    <Link
                                         href={link.href}
-                                        className={`transition-all underline-offset-4 ${
-                                            isActive 
-                                                ? 'underline decoration-2 font-semibold' 
+                                        className={`transition-all underline-offset-4 ${isActive
+                                                ? 'underline decoration-2 font-semibold'
                                                 : 'hover:underline'
-                                        }`}
+                                            }`}
                                     >
                                         {link.label}
                                     </Link>
@@ -96,16 +94,13 @@ export default function Footer() {
 
                 {/* Social Icons */}
                 <div className="flex gap-4 justify-center sm:justify-start">
-                    <a href="#" aria-label="Facebook">
+                    <a href="https://www.facebook.com/kraftandserenade/" aria-label="Facebook">
                         <Facebook className="w-5 h-5 hover:text-neutral-800 transition-colors" />
                     </a>
-                    <a href="#" aria-label="Instagram">
-                        <Instagram className="w-5 h-5 hover:text-neutral-800 transition-colors" />
-                    </a>
-                    <a href="#" aria-label="Location">
+                    <a href="https://maps.app.goo.gl/yGNDrWyXSyNczkbA7" aria-label="Location">
                         <MapPin className="w-5 h-5 hover:text-neutral-800 transition-colors" />
                     </a>
-                    <a href="#" aria-label="Email">
+                    <a href="https://m.me/kraftandserenade?text=Hi%20I’d%20like%20to%20inquire%20about%20your%20bouquets!" aria-label="Messenger">
                         <Mail className="w-5 h-5 hover:text-neutral-800 transition-colors" />
                     </a>
                 </div>
@@ -113,7 +108,7 @@ export default function Footer() {
 
             {/* Copyright */}
             <div className="border-t border-neutral-300 mt-8 pt-6 text-center">
-                &copy; 2025, Kraft and Serenade
+                &copy; 2025 - Kraft and Serenade
             </div>
         </footer>
     );
