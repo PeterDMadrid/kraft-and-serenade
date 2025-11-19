@@ -47,7 +47,7 @@ export default function AboutUs() {
               essence of love, gratitude, and celebration.`}
             </p>
             <p className="text-center">
-              {`At Kraft and Serenade, we believe flowers don't just mark
+              {`At Kraft and Serenade, we believe flowers don&apos;t just mark
               occasions; they become part of the stories people cherish forever.`}
             </p>
           </article>
