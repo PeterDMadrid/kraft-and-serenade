@@ -46,8 +46,8 @@ export default function Home() {
       <BestSeller
         image="/all-products/beyond-bouquet/rapunzel-1.avif"
         title="Rapunzel's Sundrop"
-        description="Our Angel's Bouquet has been stealing hearts all month! Loved for its soft tones and timeless charm — no wonder it's everyone's favorite pick."
-         href="/all-products/rapunzel's-sundrop"
+        description="Custom Rapunzel's Sundrop bouquet presented in a box with personalized floral arrangement inside."
+        href="/all-products/rapunzel-sundrop"
       />
       <Addons />
     </div>
