@@ -35,7 +35,7 @@ export default function Nav() {
       href: '#',
       submenu: [
         { label: 'FAQs', href: '/faqs' },
-        { label: 'Terms & Conditions', href: '/terms' },
+        { label: 'Terms & Conditions', href: '/terms-and-condition' },
       ],
     },
   ];
