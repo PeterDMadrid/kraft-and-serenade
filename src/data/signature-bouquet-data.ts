@@ -73,7 +73,7 @@ export const signatureBouquetData = [
     prevPrice: "",
     href: "/",
     alt: "Soft pink bouquet featuring three lilies, perfect for a simple and charming gesture.",
-    size: "Standard",
+    size: "Standard", 
     category: "Signature Bouquet",
   },
   {
@@ -160,7 +160,7 @@ export const signatureBouquetData = [
     price: "₱309",
     prevPrice: "319",
     href: "/",
-    alt: "Mini red bouquet combining roses and greens for a bold, classic design.",
+    alt: "Mini red bouquet combining lily and tulips for a bold, classic design.",
     size: "Mini",
     category: "Signature Bouquet",
   },
