@@ -1,23 +1,23 @@
 export const addonsData = [
     {
-        image: "/featured-bouquet/angels.avif",
-        hoverImage: "/featured-bouquet/angels-hovered.avif",
+        image: "/all-products/addons/fairy-lights.avif",
+        hoverImage: "/all-products/addons/fairy-lights.avif",
         title: "Fairy Lights",
-        price: "₱299",
+        price: "₱29",
         href: "/",
     },
     {
-        image: "/featured-bouquet/hussins.avif",
-        hoverImage: "/featured-bouquet/hussins-hovered.avif",
+        image: "/all-products/addons/heart-letter-holder.avif",
+        hoverImage: "/all-products/addons/heart-letter-holder.avif",
         title: "Heart Letter Holder",
-        price: "₱299",
+        price: "₱29",
         href: "/",
     },
     {
-        image: "/featured-bouquet/hussins.avif",
-        hoverImage: "/featured-bouquet/hussins-hovered.avif",
+        image: "/all-products/addons/instax.avif",
+        hoverImage: "/all-products/addons/instax.avif",
         title: "Instax Mini Inspired Photos",
-        price: "₱299",
+        price: "₱50",
         href: "/",
     },
 ];
