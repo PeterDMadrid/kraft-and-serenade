@@ -14,7 +14,7 @@ export default function Home() {
       <BestSeller
         image="/all-products/customer-creations/angels/angels-2.avif"
         title="This Month's Best Seller"
-        description="Our Angel's Bouquet has been stealing hearts all month! Loved for its soft tones and timeless charm — no wonder it's everyone's favorite pick."
+        description="Our Angel&apos;s Bouquet has been stealing hearts all month! Loved for its soft tones and timeless charm — no wonder it's everyone's favorite pick."
         href="/all-products/angel's"
       />
       <FeaturedBouquet />
