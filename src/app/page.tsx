@@ -25,29 +25,29 @@ export default function Home() {
                     vivid beauty. More than a bouquet, it’s an enduring expression of
                     elegance, designed to last for years."
       />
-      <SignatureCards title="Signature Bouquets"
+      <SignatureCards
+        title="Signature Bouquets"
         signatureCode={1}
-        description={`Designed with simplicity and grace in mind. 
-                      A perfect blend of color, texture, and timeless beauty.`}
+        description={`Our Signature Bouquets are crafted with elegance and care, combining timeless colors and textures to create arrangements that make any occasion special.`}
         showViewAll={false}
       />
-      <SignatureCards title="Lily Bouquet"
+      <SignatureCards
+        title="Lily Bouquet"
         signatureCode={2}
-        description={`Designed with simplicity and grace in mind. 
-                      A perfect blend of color, texture, and timeless beauty.`}
+        description={`The Lily Bouquet blends delicate blooms with graceful design, vibrant arrangement perfect for gifting or personal enjoyment.`}
         showViewAll={false}
       />
-      <SignatureCards title="Gerbera"
+      <SignatureCards
+        title="Gerbera"
         signatureCode={3}
-        description={`Designed with simplicity and grace in mind. 
-                      A perfect blend of color, texture, and timeless beauty.`}
+        description={`Gerbera bouquets showcase cheerful and colorful flowers, arranged to brighten up any space and bring joy to the recipient.`}
         showViewAll={true}
       />
       <BestSeller
         image="/all-products/beyond-bouquet/rapunzel-1.avif"
         title="Rapunzel's Sundrop"
         description="Custom Rapunzel's Sundrop bouquet presented in a box with personalized floral arrangement inside."
-        href="/all-products/rapunzel-sundrop"
+        href="/all-products/rapunzel's-sundrop"
       />
       <Addons />
     </div>
