@@ -5,6 +5,7 @@ import Image from 'next/image'
 export default function AboutUs() {
     return (
         <main>
+            <div className="h-12"></div>
             <Banner image="/landing-page/banner.avif"
                 heading="Kraft And Serenade"
                 text="Crafting since 2024"
