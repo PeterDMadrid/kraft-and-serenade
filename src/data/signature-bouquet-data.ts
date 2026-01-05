@@ -1,5 +1,16 @@
 export const signatureBouquetData = [
   {
+    image: "/all-products/signature-bouquets/Serenity/serenity-1.avif",
+    hoverImage: "/all-products/signature-bouquets/Serenity/serenity-2.avif",
+    title: "Serenity",
+    price: "₱2060",
+    prevPrice: "₱2490",
+    href: "/",
+    alt: "A light purple signature bouquet featuring lush blooms complemented by abundant premium fillers. Thoughtfully arranged to create a full, airy silhouette, Serenity offers an elegant and calming presence—perfect for meaningful celebrations and refined gifting.",
+    size: "Big",
+    category: "Signature Bouquet",
+  },
+  {
     image: "/all-products/signature-bouquets/Chelsea/chelsea-1.avif",
     hoverImage: "/all-products/signature-bouquets/Chelsea/chelsea-1.avif",
     title: "Chelsea",
@@ -179,8 +190,8 @@ export const signatureBouquetData = [
     image: "/all-products/signature-bouquets/SunflowerMini/sunflower_mini-1.avif",
     hoverImage: "/all-products/signature-bouquets/SunflowerMini/sunflower_mini-1.avif",
     title: "Sunflower Mini",
-    price: "₱319",
-    prevPrice: "265",
+    price: "₱309",
+    prevPrice: "319",
     href: "/",
     alt: "Minimalist white bouquet with sunflowers, ideal for cheerful occasions.",
     size: "Mini",
