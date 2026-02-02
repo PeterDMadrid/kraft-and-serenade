@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next"
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const poppins = Poppins({
-    weight: ['400', '700'],
-    subsets: ['latin'],
+  weight: ['400', '700'],
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
@@ -23,7 +24,8 @@ export default async function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
         <Header />
-        {children}
+          {children}
+          <Analytics />
         <Footer />
       </body>
     </html>
