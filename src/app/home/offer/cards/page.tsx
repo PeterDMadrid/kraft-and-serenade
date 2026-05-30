@@ -14,14 +14,14 @@ export default function Cards() {
                 image="/all-products/customer-creations/veras/veras-1.avif"
                 title="CUSTOMER CREATIONS"
                 description="View our customer's creation and also personalize your own beautiful bouquet"
-                href="/signature-bouquet"
+                href="/customer-creations"
                 animationDelay={100}
             />
             <Card
                 image="/landing-page/beyond.avif"
                 title="BEYOND BOUQUET"
                 description="Explore our handcrafted gifts, thoughtfully paired with your floral selections"
-                href="/signature-bouquet"
+                href="/beyond-bouquet"
                 animationDelay={200}
             />
         </div>
