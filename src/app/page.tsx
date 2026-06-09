@@ -56,6 +56,13 @@ export default function Home() {
         href="/all-products/rapunzel's-sundrop"
       />
       <Addons />
+      <Banner image="/all-products/signature-bouquets/Madrea/madrea-1.avif"
+        heading="Preserved Blooms"
+        text="A harmony of nature and time — our Preserved Bloom Bouquets are real
+                    flowers, expertly preserved to maintain their velvety softness and
+                    vivid beauty. More than a bouquet, it’s an enduring expression of
+                    elegance, designed to last for years."
+      />
     </div>
   );
 }
