@@ -1,6 +1,6 @@
 export const beyondBouquetData = [
     {
-        image: "/all-products/beyond-bouquet/rapunzel-2.avif",
+        image: "/all-products/beyond-bouquet/rapunzel-3.avif",
         hoverImage: "/all-products/beyond-bouquet/rapunzel-2.avif",
         title: "Rapunzel's Sundrop",
         price: "₱299",

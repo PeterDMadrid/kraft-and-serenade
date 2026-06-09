@@ -4,6 +4,7 @@ import SignatureCardsNavigation from "./Card/SignatureCardsNavigation";
 import { gerberaBouquets } from "./data/gerbera-bouquets";
 import { lilyBouquets } from "./data/lily-bouquets";
 import { signatureBouquets } from "./data/signature-bouquets";
+import { madreaBouquets } from "./data/madrea-bouquets";
 import Link from "next/link";
 
 interface Props {
@@ -20,8 +21,10 @@ export default function SignatureCards({ title, signatureCode, description, show
             case 1:
                 return signatureBouquets;
             case 2:
-                return lilyBouquets;
+                return madreaBouquets;
             case 3:
+                return lilyBouquets;
+            case 4:
                 return gerberaBouquets;
             default:
                 return signatureBouquets;

@@ -18,7 +18,7 @@ export default function Home() {
         href="/all-products/angel's"
       />
       <FeaturedBouquet />
-      <Banner image="/landing-page/banner.avif"
+      <Banner image="/all-products/signature-bouquets/Madrea/madrea-7.avif"
         heading="Preserved Blooms"
         text="A harmony of nature and time — our Preserved Bloom Bouquets are real
                     flowers, expertly preserved to maintain their velvety softness and
@@ -32,19 +32,25 @@ export default function Home() {
         showViewAll={false}
       />
       <SignatureCards
-        title="Lily Bouquet"
+        title="Madrea Bouquets"
         signatureCode={2}
+        description={`A handcrafted fuzzy wire bouquet featuring a gerbera daisy, lily blooms, poppy flower, and daisy accents, designed to bring warmth, charm, and lasting beauty.`}
+        showViewAll={false}
+      />
+      <SignatureCards
+        title="Lily Bouquets"
+        signatureCode={3}
         description={`The Lily Bouquet blends delicate blooms with graceful design, vibrant arrangement perfect for gifting or personal enjoyment.`}
         showViewAll={false}
       />
       <SignatureCards
         title="Gerbera"
-        signatureCode={3}
+        signatureCode={4}
         description={`Gerbera bouquets showcase cheerful and colorful flowers, arranged to brighten up any space and bring joy to the recipient.`}
         showViewAll={true}
       />
       <BestSeller
-        image="/all-products/beyond-bouquet/rapunzel-1.avif"
+        image="/all-products/beyond-bouquet/rapunzel-3.avif"
         title="Rapunzel's Sundrop"
         description="Custom Rapunzel's Sundrop bouquet presented in a box with personalized floral arrangement inside."
         href="/all-products/rapunzel's-sundrop"
