@@ -12,10 +12,10 @@ export default function Home() {
       <Carousel />
       <Offer />
       <BestSeller
-        image="/all-products/customer-creations/angels/angels-2.avif"
+        image="/all-products/valentines-bouquets/Claire/claire-1.avif"
         title="This Month's Best Seller"
-        description="Our Angel&apos;s Bouquet has been stealing hearts all month! Loved for its soft tones and timeless charm — no wonder it's everyone's favorite pick."
-        href="/all-products/angel's"
+        description="Our most-loved bouquet this month. Featuring a charming arrangement that customers keep coming back for, making it a perfect gift for any celebration."
+        href="/all-products/claire"
       />
       <FeaturedBouquet />
       <Banner image="/all-products/signature-bouquets/Madrea/madrea-7.avif"
@@ -46,6 +46,25 @@ export default function Home() {
       <SignatureCards
         title="Gerbera"
         signatureCode={4}
+        description={`Gerbera bouquets showcase cheerful and colorful flowers, arranged to brighten up any space and bring joy to the recipient.`}
+        showViewAll={true}
+      />
+      <Banner image="/all-products/valentines-bouquets/Ivy/ivy-1.avif"
+        heading="Preserved Blooms"
+        text="A harmony of nature and time — our Preserved Bloom Bouquets are real
+                    flowers, expertly preserved to maintain their velvety softness and
+                    vivid beauty. More than a bouquet, it’s an enduring expression of
+                    elegance, designed to last for years."
+      />
+      <SignatureCards
+        title="Valentines Bouquet"
+        signatureCode={5}
+        description={`Gerbera bouquets showcase cheerful and colorful flowers, arranged to brighten up any space and bring joy to the recipient.`}
+        showViewAll={true}
+      />
+      <SignatureCards
+        title="Graduation Bouquet"
+        signatureCode={6}
         description={`Gerbera bouquets showcase cheerful and colorful flowers, arranged to brighten up any space and bring joy to the recipient.`}
         showViewAll={true}
       />

@@ -4,7 +4,7 @@ export const madreaBouquets = [
         hoverImage: "/all-products/signature-bouquets/Madrea/madrea-1.avif",
         title: "Madrea (Yellow)",
         price: "₱599",
-        href: "/all-products/yellow-madrea",
+        href: "/all-products/madrea-(yellow)"
 
     },
     {
@@ -12,7 +12,7 @@ export const madreaBouquets = [
         hoverImage: "/all-products/signature-bouquets/Madrea/madrea-1.avif",
         title: "Madrea (Pink)",
         price: "₱599",
-        href: "/all-products/pink-madrea",
+        href: "/all-products/madrea-(pink)"
 
     },
     {
@@ -20,7 +20,7 @@ export const madreaBouquets = [
         hoverImage: "/all-products/signature-bouquets/Madrea/madrea-1.avif",
         title: "Madrea (Blue)",
         price: "₱599",
-        href: "/all-products/blue-madrea",
+        href: "/all-products/madrea-(blue)"
 
     },
     {
@@ -28,7 +28,7 @@ export const madreaBouquets = [
         hoverImage: "/all-products/signature-bouquets/Madrea/madrea-1.avif",
         title: "Madrea (Light Pink)",
         price: "₱599",
-        href: "/all-products/light-pink-madrea",
+        href: "/all-products/madrea-(light-pink)"
 
     },
     {
@@ -36,6 +36,6 @@ export const madreaBouquets = [
         hoverImage: "/all-products/signature-bouquets/Madrea/madrea-1.avif",
         title: "Madrea (Purple)",
         price: "₱599",
-        href: "/all-products/purple-madrea",
+        href: "/all-products/madrea-(purple)"
     },
 ]

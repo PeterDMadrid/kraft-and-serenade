@@ -25,6 +25,8 @@ export default function Nav() {
         { label: 'All Products', href: '/all-products' },
         { label: 'Signature Bouquets', href: '/signature-bouquet' },
         { label: 'Customer Creations', href: '/customer-creations' },
+        { label: 'Valentines Bouquets', href: '/valentines-bouquet' },
+        { label: 'Graduation Bouquets', href: '/graduation-bouquet' },
         { label: 'Beyond Bouquets', href: '/beyond-bouquet' },
       ],
     },

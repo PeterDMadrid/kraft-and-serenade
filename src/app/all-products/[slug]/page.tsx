@@ -3,6 +3,8 @@ import Link from "next/link";
 import { customerCreationsData } from "@/data/customer-creation-data";
 import { signatureBouquetData } from "@/data/signature-bouquet-data";
 import { beyondBouquetData } from "@/data/beyond-bouquet-data";
+import { valentinesBouquetSpecialData } from "@/data/valentines-special-bouquet-data";
+import { graduationBouquetData } from "@/data/graduation-bouquet-data";
 import ProductImages from "./ProductImages";
 
 // Combine all products
@@ -10,6 +12,8 @@ const allProducts = [
     ...signatureBouquetData,
     ...customerCreationsData,
     ...beyondBouquetData,
+    ...valentinesBouquetSpecialData,
+    ...graduationBouquetData,
 ];
 
 interface PageProps {

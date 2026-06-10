@@ -3,11 +3,15 @@ import { customerCreationsData } from "@/data/customer-creation-data";
 import { signatureBouquetData } from "@/data/signature-bouquet-data";
 import { beyondBouquetData } from "@/data/beyond-bouquet-data";
 import ProductsList from "@/components/ProductList";
+import { graduationBouquetData } from "@/data/graduation-bouquet-data";
+import { valentinesBouquetSpecialData } from "@/data/valentines-special-bouquet-data";
 
 export default function AllProducts() {
   const allProducts = [
     ...signatureBouquetData,
     ...customerCreationsData,
+    ...valentinesBouquetSpecialData,
+    ...graduationBouquetData,
     ...beyondBouquetData,
   ];
 
