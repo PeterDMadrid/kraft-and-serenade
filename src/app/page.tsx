@@ -10,14 +10,15 @@ export default function Home() {
   return (
     <div>
       <Carousel />
-      <Offer />
+      {/* <Offer /> */}
+      <FeaturedBouquet />
+
       <BestSeller
         image="/all-products/valentines-bouquets/Claire/claire-1.avif"
         title="This Month's Best Seller"
         description="Our most-loved bouquet this month. Featuring a charming arrangement that customers keep coming back for, making it a perfect gift for any celebration."
         href="/all-products/claire"
       />
-      <FeaturedBouquet />
       <Banner image="/all-products/signature-bouquets/Madrea/madrea-7.avif"
         heading="Preserved Blooms"
         text="A harmony of nature and time — our Preserved Bloom Bouquets are real
