@@ -19,6 +19,12 @@ export default function Home() {
         description="Our most-loved bouquet this month. Featuring a charming arrangement that customers keep coming back for, making it a perfect gift for any celebration."
         href="/all-products/claire"
       />
+      <SignatureCards
+        title="Signature Bouquets"
+        signatureCode={1}
+        description={`Our Signature Bouquets are crafted with elegance and care, combining timeless colors and textures to create arrangements that make any occasion special.`}
+        showViewAll={false}
+      />
       <Banner image="/all-products/signature-bouquets/Madrea/madrea-7.avif"
         heading="Preserved Blooms"
         text="A harmony of nature and time — our Preserved Bloom Bouquets are real
@@ -26,12 +32,7 @@ export default function Home() {
                     vivid beauty. More than a bouquet, it’s an enduring expression of
                     elegance, designed to last for years."
       />
-      <SignatureCards
-        title="Signature Bouquets"
-        signatureCode={1}
-        description={`Our Signature Bouquets are crafted with elegance and care, combining timeless colors and textures to create arrangements that make any occasion special.`}
-        showViewAll={false}
-      />
+
       <SignatureCards
         title="Madrea Bouquets"
         signatureCode={2}
